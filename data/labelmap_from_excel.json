@@ -1,0 +1,51 @@
+{
+  "text_column": "RequirementText",
+  "label_names": [
+    "Functional (F)",
+    "Quality (Q)",
+    "Availability (A)",
+    "Fault Tolerance (FT)",
+    "Legal (L)",
+    "Look & Feel (LF)",
+    "Maintainability (MN)",
+    "Operability (O)",
+    "Performance (PE)",
+    "Portability (PO)",
+    "Scalability (SC)",
+    "Security (SE)",
+    "Usability (US)",
+    "Other (OT)"
+  ],
+  "label2id": {
+    "Functional (F)": 0,
+    "Quality (Q)": 1,
+    "Availability (A)": 2,
+    "Fault Tolerance (FT)": 3,
+    "Legal (L)": 4,
+    "Look & Feel (LF)": 5,
+    "Maintainability (MN)": 6,
+    "Operability (O)": 7,
+    "Performance (PE)": 8,
+    "Portability (PO)": 9,
+    "Scalability (SC)": 10,
+    "Security (SE)": 11,
+    "Usability (US)": 12,
+    "Other (OT)": 13
+  },
+  "id2label": {
+    "0": "Functional (F)",
+    "1": "Quality (Q)",
+    "2": "Availability (A)",
+    "3": "Fault Tolerance (FT)",
+    "4": "Legal (L)",
+    "5": "Look & Feel (LF)",
+    "6": "Maintainability (MN)",
+    "7": "Operability (O)",
+    "8": "Performance (PE)",
+    "9": "Portability (PO)",
+    "10": "Scalability (SC)",
+    "11": "Security (SE)",
+    "12": "Usability (US)",
+    "13": "Other (OT)"
+  }
+}
