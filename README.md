@@ -9,5 +9,7 @@ python -m venv .venv
 pip install -r requirements.txt
 
 # Step 04: Convert dataset Excel -> JSONL
-python .\scripts\convert_excel_to_jsonl.py --in_xlsx .\data\Dataset_Full_Vietnamese.xlsx --sheet "Sheet1" --labelmap .\data\labelmap_from_excel.json --out_jsonl .\output\Dataset_Full_Vietnamese.jsonl
+python .\scripts\convert_excel_to_jsonl.py --in_xlsx .\data\Dataset_Full_EN.xlsx --sheet "Sheet1" --labelmap .\data\labelmap_from_excel.json --out_jsonl .\output\Dataset_Full_EN.jsonl
+
+python .\scripts\convert_excel_to_jsonl.py --in_xlsx .\data\Dataset_Full_VI.xlsx --sheet "Sheet1" --labelmap .\data\labelmap_from_excel.json --out_jsonl .\output\Dataset_Full_VI.jsonl
 
