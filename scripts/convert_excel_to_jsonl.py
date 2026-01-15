@@ -5,16 +5,16 @@ Convert an Excel multilabel dataset to JSONL using a labelmap.
 
 Expected Excel format:
 - One text column (e.g., "RequirementText")
-- Multiple label columns (e.g., "Functional (F)", "Quality (Q)", ...) with 0/1 values
+- Multiple label columns (e.g., "Functional (F)", "Availability (A)", ...) with 0/1 values
 
 Output JSONL format (default):
 {"text": "...", "labels": ["Functional (F)", ...], "label_ids": [0, ...]}
 
 Usage:
   python convert_excel_to_jsonl.py ^
-    --in_xlsx Dataset_01_Vietnamese.xlsx ^
+    --in_xlsx Dataset_Full_VI.xlsx ^
     --labelmap labelmap_from_excel.json ^
-    --out_jsonl Dataset_01_Vietnamese_multilabel_labelids.jsonl
+    --out_jsonl Dataset_Full_VI.jsonl
 """
 
 from __future__ import annotations
